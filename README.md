@@ -4,3 +4,6 @@ Saya juga berharap aplikasi ini akan menarik peserta didik baru untuk masuk ke s
 
 Note :
 File File gambar terdapat pada folder aset dan file file Program Terdapat pada di Folder SMK PGRI 1 SUKABUMI
+
+contoh web : 
+https://web.rahmanz.my.id/

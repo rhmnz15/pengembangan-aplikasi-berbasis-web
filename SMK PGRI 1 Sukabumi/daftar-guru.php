@@ -8,7 +8,7 @@
 		<!-- Informasi Umum -->
 		<title>SMK PGRI 1 Sukabumi</title>
 		<meta name="description" content="Sistem Informasi Sekolah SMK PGRI 1 Sukabumi" />
-		<meta name="author" content="Rahman Zulkarnaen['rahman.zulkarnaen_ti19@nusaputra.ac.id']" />
+		<meta name="author" content="Rahman Zulkarnaen['rahman.zulkarnaen_ti19@nusaputra.ac.id']" />	
 		
 		<!-- Koleksi CSS -->
 		<link href="aset/paket/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -28,7 +28,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-4 kiri">
-							<strong class="logo"><a href="index.html"><img src="aset/img/logo.png" alt="Logo"></a></strong>
+							<strong class="logo"><a href="index.php"><img src="aset/img/logo.png" alt="Logo"></a></strong>
 						</div>
 						<div class="col-sm-8 kanan">
 
@@ -36,7 +36,7 @@
 								<div class="container">
 									<div class="frame pull-right">
 										<div class="form-search pull-right">
-											<form action="404.html">
+											<form action="404.php">
 												<fieldset>
 													<div class="field-search">
 														<input type="text" class="form-control input-sm" placeholder="Cari" />
@@ -77,32 +77,32 @@
 												<div class="collapse navbar-collapse">
 													<span class="nook">&nbsp;</span>
 													<ul class="nav navbar-nav">
-														<li><a href="index.html">Beranda</a></li>
-														<li class="active dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Profil Sekolah</a>
+														<li><a href="index.php">Beranda</a></li>
+														<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Profil Sekolah</a>
 														    <ul class="dropdown-menu">
-														      <li><a href="identitas.html">Identitas</a></li>
-														      <li><a href="visi-misi.html">Visi &amp; Misi</a></li>
-														      <li><a href="sarana-prasarana.html">Sarana &amp; Prasarana</a></li>
-														      <li><a href="program-kegiatan.html">Program &amp; Kegiatan </a></li>
-														      <li><a href="prestasi.html">Prestasi</a></li>
+														      <li><a href="identitas.php">Identitas</a></li>
+														      <li><a href="visi-misi.php">Visi &amp; Misi</a></li>
+														      <li><a href="sarana-prasarana.php">Sarana &amp; Prasarana</a></li>
+														      <li><a href="program-kegiatan.php">Program &amp; Kegiatan </a></li>
+														      <li><a href="prestasi.php">Prestasi</a></li>
 														    </ul>
 													    </li>
 														<li><a href="#">Kurikulum</a></li>
-														<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Kesiswaan</a>
+														<li class="active dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Kesiswaan</a>
 														    <ul class="dropdown-menu">
-														      <li><a href="daftar-siswa.html">Daftar Siswa</a></li>
-														      <li><a href="daftar-guru.html">Daftar Guru &amp; Staff</a></li>
-														      <li><a href="daftar-kelas.html">Daftar Kelas</a></li>
+														      <li><a href="daftar-siswa.php">Daftar Siswa</a></li>
+														      <li><a href="daftar-guru.php">Daftar Guru &amp; Staff</a></li>
+														      <li><a href="daftar-kelas.php">Daftar Kelas</a></li>
 														    </ul>
 													    </li>
-														<li><a href="galeri.html">Galeri</a></li>
-														<li><a href="buku-tamu.html">Buku Tamu</a></li>
+														<li><a href="galeri.php">Galeri</a></li>
+														<li><a href="buku-tamu.php">Buku Tamu</a></li>
 														<li class="last">&nbsp;</li>
 													</ul>
 													<!--  frame pull-right start -->
 													<div class="frame">
 														<div class="form-search pull-right">
-															<form action="404.html">
+															<form action="404.php">
 																<fieldset>
 																	<div class="field-search">
 																		<input type="text" class="form-control input-sm" placeholder="Cari" />
@@ -133,53 +133,86 @@
 
 				<div class="judul-halaman">
 					<div class="container">
-						<h1>Visi &amp; Misi</h1>
+						<h1>Daftar Guru dan Staff</h1>
 					</div>
 				</div>
 
 				<div class="hold-breadcrumbs">
 					<div class="container">
 						<ol class="breadcrumb breadcrumb-site">
-							<li><a href="index.html">Beranda</a></li>
-							<li><a href="404.html">Profil Sekolah</a></li>
-							<li class="active">Visi &amp; Misi</li>
+							<li><a href="index.php">Beranda</a></li>
+							<li><a href="404.php">Kesiswaan</a></li>
+							<li class="active">Daftar Guru &amp; Staff</li>
 						</ol>
 					</div>
 				</div>
 
 				<div class="container">
-					<section class="advertising">
-						<div class="container">
-							
-							<div class="row">
-								<div class="visi-sekolah">
-									<h1 style="font-family:Open Sans">Visi Sekolah</h1>
-									<hr/>
-									<p style="font-size:17px">“Terwujudnya peserta didik yang bertaqwa, cerdas, kompeten, mandiri dan berdaya saing global”</p>
-								</div>
+					<div class="row">
+						<div class="col-sm-9">
+							<!-- content  start -->
+							<div id="content">
+								<section class="daftar-guru" style="background:white;border-bottom: .2em solid grey;
+	border-radius: .33em;padding:10px">
+									<div class="table-responsive">
+										<form action="404.php">
+											<fieldset>
+												<table class="table">
+													<tbody>
+														<tr>
+															<th>No</th>
+															<th>Photo</th>
+															<th>Biodata</th>
+															<th>Jabatan</th>
+															<th>Status</th>
+														</tr>
+														<tr>
+															<td>1</td>
+															<td><span class="hold-img pull-left"><img width="77" height="79" alt="image" src="images/img196.jpg"></span></td>
+															<td>
+																<a href="#">
+																	<strong class="title">Neque porro</strong>
+																</a>
+																<span class="text-size">Color: Black</span>
+																<span class="text-size">Size: M</span>
+															</td>
+															<td>Kepala Sekolah</td>
+															<td><i class="fa-icon-check"></i> Aktif</td>
+
+														</tr>
+													</tbody>
+												</table>
+											</fieldset>
+										</form>
+									</div>
+									
+								</section>
 							</div>
-							<br/>
-							<br/>
-							<br/>
-							<div class="row">
-								<div class="misi-sekolah">
-									<h1 style="font-family:Open Sans">Misi Sekolah</h1>
-									<hr/>
-									<ul style="font-size:17px">
-										<li>Menanamkan keimanan dan ketaqwaan melalui pengamalan ajaran Agama;</li>
-										<li>Mengoptimalkan proses pembelajaran yang berbasis teknologi berdasarkan penerapan kurikulum 2013;</li>
-										<li>Memberdayakan dan mengembangkan sarana/prasarana untuk mendukung proses pembelajaran yang berkualitas;</li>
-										<li>Meningkatkan profil kemampuan tenaga pendidik dan tenaga kependidikan menjadi tenaga yang profesional dibidangnya;</li>
-										<li>Menjadikan SMKS PGRI 1 Sukabumi menjadi sekolah pavorit di masyarakat;</li>
-										<li>Menghasilkan lulusan yang profesional dibidang teknologi untuk memenuhi tuntutan dunia usaha dan dunia indsutri;</li>
-										<li>Membekali peserta didik dengan kemampuan untuk mengembangkan diri secara mandiri;</li>
-										<li>Menyiapkan lulusan yang kompeten, profesional dan mampu mandiri untuk memenuhi pasar kerja baik tingkat lokal, nasional maupun internasional.</li>
-									</ul>
-								</div>
-							</div>
+							<!-- content  end -->
 						</div>
-					</section>
+						<div class="col-sm-3">
+							<!-- sidebar  start -->
+							<aside id="sidebar">
+								<!--  categories start -->
+								<section class="categories">
+									<div class="hold-form">
+										<form action="404.php">
+											<fieldset>
+												<div class="field-search">
+													<input type="text" class="form-control input-lg" placeholder="Cari berdasaran apapun...">
+													<button class="btn-search" type="submit"><span class="fa-icon-search"></span></button>
+												</div>
+											</fieldset>
+										</form>
+									</div>
+								</section>
+								<!--  categories end -->
+							</aside>
+							<!-- sidebar  end -->
+						</div>
+					</div>
 				</div>
+
 			</div>
 
 			<!-- Bagian Bawah -->
@@ -192,10 +225,10 @@
 							</div>
 							<div class="col-md-7 col-sm-6">
 								<ul class="list list-inline pull-right">
-									<li><a href="index.html">Beranda</a></li>
-									<li><a href="kabar-sekolah.html">Kabar Sekolah</a></li>
-									<li><a href="galeri.html">Galeri</a></li>
-									<li><a href="buku-tamu.html">Buku Tamu</a></li>
+									<li><a href="index.php">Beranda</a></li>
+									<li><a href="kabar-sekolah.php">Kabar Sekolah</a></li>
+									<li><a href="galeri.php">Galeri</a></li>
+									<li><a href="buku-tamu.php">Buku Tamu</a></li>
 									<li><a href="#top">Kembali Ke Atas</a></li>
 								</ul>
 							</div>
