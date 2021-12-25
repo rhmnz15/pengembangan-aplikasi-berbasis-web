@@ -260,10 +260,10 @@
 							</div>
 							<div class="col-md-7 col-sm-6">
 								<ul class="list list-inline pull-right">
-									<li><a href="index.html">Beranda</a></li>
-									<li><a href="kabar-sekolah.html">Kabar Sekolah</a></li>
-									<li><a href="galeri.html">Galeri</a></li>
-									<li><a href="buku-tamu.html">Buku Tamu</a></li>
+									<li><a href="index.php">Beranda</a></li>
+									<li><a href="kabar-sekolah.php">Kabar Sekolah</a></li>
+									<li><a href="galeri.php">Galeri</a></li>
+									<li><a href="buku-tamu.php">Buku Tamu</a></li>
 									<li><a href="#top">Kembali Ke Atas</a></li>
 								</ul>
 							</div>
