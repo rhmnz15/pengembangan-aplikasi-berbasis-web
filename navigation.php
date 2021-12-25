@@ -39,7 +39,7 @@
 													    </li>
 														<li><a href="galeri.php">Galeri</a></li>
 														<li><a href="buku-tamu.php">Buku Tamu</a></li>
-														<li><a href="loginpage.php">Login</a></li>
+														<li><a href="login.php">Login</a></li>
 														<li class="last">&nbsp;</li>
 													</ul>
 													<!--  frame pull-right start -->

@@ -157,20 +157,20 @@
 									<div class="row">
 										<div class="col-sm-4">
 											<div class="hold-photo">
-												<img src="aset/paket/images/img02.jpg" alt="image" width="270" height="208">
+												<img src="aset/paket/images/img16.jpg" alt="image" width="270" height="208">
 												<div class="frame-shadow">&nbsp;</div>
 											</div>
 										</div>
 										<div class="col-sm-4">
 											<div class="hold-photo">
-												<img src="aset/paket/images/img03.jpg" alt="image" width="270" height="208">
+												<img src="aset/paket/images/img15.jpg" alt="image" width="270" height="208">
 												<div class="frame-shadow">&nbsp;</div>
 												
 											</div>
 										</div>
 										<div class="col-sm-4">
 											<div class="hold-photo">
-												<img src="aset/paket/images/img04.jpg" alt="image" width="270" height="208">
+												<img src="aset/paket/images/img17.jpg" alt="image" width="270" height="208">
 												<div class="frame-shadow">&nbsp;</div>
 											</div>
 										</div>
@@ -179,7 +179,7 @@
 									<div class="row">
 										<div class="col-sm-4">
 											<div class="hold-photo">
-												<img src="aset/paket/images/img05.jpg" alt="image" width="270" height="208">
+												<img src="aset/paket/images/img18.jpg" alt="image" width="270" height="208">
 												<div class="frame-shadow">&nbsp;</div>
 											</div>
 										</div>
@@ -192,7 +192,7 @@
 										</div>
 										<div class="col-sm-4">
 											<div class="hold-photo">
-												<img src="aset/paket/images/img07.jpg" alt="image" width="270" height="208">
+												<img src="aset/paket/images/img19.jpg" alt="image" width="270" height="208">
 												<div class="frame-shadow">&nbsp;</div>
 											</div>
 										</div>
@@ -223,20 +223,20 @@
 									<div class="row">
 										<div class="col-sm-4">
 											<div class="hold-photo">
-												<img src="aset/paket/images/img11.jpg" alt="image" width="270" height="208">
+												<img src="aset/paket/images/img28.jpg" alt="image" width="270" height="208">
 												<div class="frame-shadow">&nbsp;</div>
 											</div>
 										</div>
 										<div class="col-sm-4">
 											<div class="hold-photo">
-												<img src="aset/paket/images/img12.jpg" alt="image" width="270" height="208">
+												<img src="aset/paket/images/img29.jpg" alt="image" width="270" height="208">
 												<div class="frame-shadow">&nbsp;</div>
 												
 											</div>
 										</div>
 										<div class="col-sm-4">
 											<div class="hold-photo">
-												<img src="aset/paket/images/img13.jpg" alt="image" width="270" height="208">
+												<img src="aset/paket/images/img30.jpg" alt="image" width="270" height="208">
 												<div class="frame-shadow">&nbsp;</div>
 											</div>
 										</div>
